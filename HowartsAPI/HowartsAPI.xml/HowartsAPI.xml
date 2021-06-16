@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HowartsAPI</name>
+    </assembly>
+    <members>
+        <member name="M:HowartsAPI.Controllers.CandidatesController.GetCanditates">
+            <summary>
+            Obtener candidato
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HowartsAPI.Controllers.CandidatesController.GetCanditateById(System.Int32)">
+            <summary>
+            Obtener candidato por ID
+            </summary>
+            <param name="id">Candidato ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:HowartsAPI.Controllers.CandidatesController.CreateCandidate(HowartsAPI.DTOs.CandidateCreationDtos)">
+            <summary>
+            Crear Candidato
+            </summary>
+            <param name="dto">Data transfer objet</param>
+            <returns></returns>
+        </member>
+        <member name="M:HowartsAPI.Controllers.CandidatesController.UpdateCandidate(System.Int32,HowartsAPI.DTOs.CandidateCreationDtos)">
+            <summary>
+            Actualizar Candidato
+            </summary>
+            <param name="id">Candidato Id</param>
+            <param name="dto">Data transfer objet</param>
+            <returns></returns>
+        </member>
+        <member name="M:HowartsAPI.Controllers.CandidatesController.DeleteCandidate(System.Int32)">
+            <summary>
+            Eliminar Candidato
+            </summary>
+            <param name="id">Candidato Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HowartsAPI.Controllers.HousesController.GetHouses">
+            <summary>
+            Obtener Casas de estudio
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HowartsAPI.Controllers.HousesController.GetHouseById(System.Int32)">
+            <summary>
+            Obtener Casas de estudio por ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HowartsAPI.Controllers.HousesController.CreateHouse(HowartsAPI.DTOs.HouseCreationDtos)">
+            <summary>
+            Crear Casa de estudio
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HowartsAPI.Controllers.HousesController.UpdateHouse(System.Int32,HowartsAPI.DTOs.HouseCreationDtos)">
+            <summary>
+            Actualizar Casa de estudio
+            </summary>
+            <param name="id"></param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HowartsAPI.Controllers.HousesController.DeleteHouse(System.Int32)">
+            <summary>
+            Elimnar Casa de estudio
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
