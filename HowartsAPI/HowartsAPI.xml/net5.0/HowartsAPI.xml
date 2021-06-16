@@ -52,27 +52,5 @@
             <param name="id"></param>
             <returns></returns>
         </member>
-        <member name="M:HowartsAPI.Controllers.HousesController.CreateHouse(HowartsAPI.DTOs.HouseCreationDtos)">
-            <summary>
-            Crear Casa de estudio
-            </summary>
-            <param name="dto"></param>
-            <returns></returns>
-        </member>
-        <member name="M:HowartsAPI.Controllers.HousesController.UpdateHouse(System.Int32,HowartsAPI.DTOs.HouseCreationDtos)">
-            <summary>
-            Actualizar Casa de estudio
-            </summary>
-            <param name="id"></param>
-            <param name="dto"></param>
-            <returns></returns>
-        </member>
-        <member name="M:HowartsAPI.Controllers.HousesController.DeleteHouse(System.Int32)">
-            <summary>
-            Elimnar Casa de estudio
-            </summary>
-            <param name="id"></param>
-            <returns></returns>
-        </member>
     </members>
 </doc>
